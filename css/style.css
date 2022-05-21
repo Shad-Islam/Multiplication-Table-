@@ -1,0 +1,103 @@
+/* common css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* common css end */
+
+
+/* body css start */
+
+body {
+    background-color: #D0C9C0;
+}
+
+
+/* body css start */
+
+
+/* main_container start */
+
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: #133B5C;
+    margin: 60px auto;
+    border-radius: 5%;
+    
+}
+
+
+/* main_container end  */
+
+
+/* container-upperpart css start */
+
+.container-upperpart {
+    height: 350px;
+    background-color: #6D8B74;
+    text-align: center;
+}
+/* container-upperpart css end */
+
+
+.container-upperpar--heading{
+  padding: 100px 0 30px;
+}
+
+.container-form--input{
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 38px;
+    text-align: center;
+}
+
+
+.btn {
+        height: 27px;
+        width: 54px;
+        background-color: #fff;
+}
+
+
+
+
+/* container-lowerpart css start */
+
+.container-lowerpart {
+    height: 350px;
+    text-align: center;
+    background-color: #EFEAD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* container-lowerpart css end */
+
+.container-lowerpart--box {
+    min-height: 100px;
+    width: 400px;
+    background-color: #ac916e;
+    color: #fff;
+   
+}
+
+.container-lowerpart--box h2{
+    margin-top: 40px;
+}
